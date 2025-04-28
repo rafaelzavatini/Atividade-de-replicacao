@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.titulo {
+
+    margin-top: 150px;
+}
+
+.titulo h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 420;
+}
+
+.icones-topo {
+    margin-top: 75px;
+    display: flex;
+    justify-content: right;
+    padding-right: 3%;
+    gap: 15px;
+}
+.arquivos-recentes{
+
+}
+.arquivos-recentes h5{
+    color: grey;
+    padding-left: 5%;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.imagens{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.imagens img{
+    height: 150px;
+    width: 110px;
+    border-radius: 17px;
+}
+.categorias h5{
+    color: grey;
+    padding-left: 5%;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.icones-categorias{
+    background-color: rgb(32, 32, 32);
+    height: 175px;
+    width: 100%;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    display: flex;
+}
+.icones-categorias h5{
+    color: rgb(197, 197, 197);
+
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.icones-categorias img{
+    height: 30px;
+    width: 30px;
+}
