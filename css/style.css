@@ -61,7 +61,7 @@ body {
     margin: 20px auto;
     border-radius: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px 30px;
 }
@@ -83,4 +83,60 @@ body {
     color: rgb(197, 197, 197);
     font-size: 13px;
     margin: 0;
+}
+
+
+.armazenamento h5{
+    color: grey;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.icones-armazenamento{
+    background-color: rgb(32, 32, 32);
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 30px;
+}
+.armazenamento-item{
+    display: flex;
+    padding: 0 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.armazenamento-item img{
+    height: 40px;
+    width: 40px;
+    
+}
+.armazenamento-item h5{
+    color: white;
+    padding-left: 5%;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 420;
+}
+
+.logo {
+    max-width: 50px;
+    width: 20%;
+}
+
+.logo img {
+    object-fit: cover;
+}
+
+.textLogo {
+    width: 80%;
+    white-space: nowrap;
+}
+hr{
+    padding-left: 5px;
+    padding-right: 15px;
+    background-color: rgb(48, 48, 48);
+    margin: none;
 }
