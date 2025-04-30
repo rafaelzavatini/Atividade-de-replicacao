@@ -57,7 +57,7 @@ body {
 
 .icones-categorias {
     background-color: rgb(32, 32, 32);
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
     border-radius: 20px;
     display: grid;
@@ -94,7 +94,7 @@ body {
 }
 .icones-armazenamento{
     background-color: rgb(32, 32, 32);
-    width: 90%;
+    width: 80%;
     margin: 20px auto;
     border-radius: 20px;
     grid-template-columns: repeat(3, 1fr);
@@ -139,4 +139,40 @@ hr{
     padding-right: 15px;
     background-color: rgb(48, 48, 48);
     margin: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.aplicativos{
+    margin-top: 5px;
+}
+.aplicativos h5{
+    color: grey;
+    padding-left: 5%;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.opcoes-aplicativo {
+    background-color: rgb(32, 32, 32);
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opcoes-aplicativo select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background-color: rgb(156, 156, 156);
+    color: black;
 }
